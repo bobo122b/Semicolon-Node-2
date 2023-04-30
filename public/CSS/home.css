@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #343434;
+}
+
+main {
+  background: white;
+  width: 90%;
+  max-width: 40rem;
+  margin: 2.5rem auto;
+  padding: 1rem 3rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.control {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.control input {
+  width: 15rem;
+  min-width: 10rem;
+  border: 1px solid #ccc;
+  height: 1.5rem;
+  border-radius: 7px;
+}
+
+.control input:hover,
+.control input:active,
+.control input:focus {
+  outline: none;
+  border-color: #343434;
+}
+
+.action {
+  margin-top: 1rem;
+}
+
+.action button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #874485;
+  border-radius: 8px;
+  background-color: #874485;
+  color: white;
+  transition: 300ms ease-out;
+}
+
+.action button:hover,
+.action button:active {
+  background-color: white;
+  color: #874485;
+}
